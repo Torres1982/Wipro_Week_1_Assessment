@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title> Week 1 - Assessment </title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+    <link rel="stylesheet" type="text/css" href="src/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="src/css/queries.css">
+  </head>
+
+    <body>
+        <header>
+            <!-- <h1> Week 1 Assessment </h1> -->
+            <div id="nav-buttons">
+                <ul class="main-nav">
+                    <li><a href="#"> Home </a><li>
+                    <li><a href="#" class="nav_users"> Users </a></li>
+                    <li><a href="#"> Register </a></li>
+                    <li><a href="#"> Teams </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+                <a class="mobile-menu-icon"><img src="src/img/menu_icon.png" alt="Menu Icon" width=45 height=45 class="menu-icon"></a>
+            </div>
+        </header>
+
+        <h3> Please Register: </h3>
+
+        <div class="section-form">
+            <form method="POOST" action="#" id="registration-form">
+                <div class="row">
+                    <div class="form-label col span-1-of-7">
+                        <label id="testing" for="first-name"> First Name: </label>
+                    </div>
+                    <div class="col span-6-of-7">
+                        <input type="text" id="first-name" class="my-form" placeholder="Your Name" autofocus required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-label col span-1-of-7">
+                        <label for="surname"> Surname: </label>
+                    </div>
+                    <div class="col span-6-of-7">
+                        <input type="text" id="surname" class="my-form" placeholder="Your Surname" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-label col span-1-of-7">
+                        <label for="email"> Email: </label>
+                    </div>
+                    <div class="col span-6-of-7">
+                        <input type="email" id="email" class="my-form" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-label col span-1-of-7">
+                        Gender: 
+                    </div>
+                    <div class="col span-6-of-7">
+                        <label for="female" class="form-label form-radio">
+                            Female <input type="radio" id="female" name="gender" class="my-form" value="female" required>
+                        </label>
+                        <label for="male" class="form-label form-radio">
+                            Male <input type="radio" id="male" name="gender" class="my-form" value="male" required>
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="form-label col span-1-of-7">
+                        <label for="date-of-birth"> Date of Birth: </label>
+                    </div>
+                    <div class="col span-6-of-7">
+                        <input type="date" id="date-of-birth" class="my-form" required>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="form-label col span-1-of-7"></div>
+                    <div class="form-label col span-6-of-7">
+                            <input type="submit" id="submit-button" value="Register" onClick="validateFields()">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="section-features">
+            <div class="section-items">
+                <div class="col span-1-of-3">
+                    <h3>My first section</h3>
+                    <p>
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+            </div>
+            <div class="section-items">
+                <div class="col span-1-of-3">
+                    <h3>My second section</h3>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+                    </p>
+                </div>
+            </div>
+            <div class="section-items">
+                <div class="col span-1-of-3">
+                    <h3>My third section</h3>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row">
+                <div class="col span-1-of-2 section-items">
+                    <ul class="footer-navigation">
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> Help </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <div class="footer-social-media">
+                        Find us on Social Media
+                        <a href="#"><img src="src/img/facebook_icon.png" alt="Facebook Logo"></a>
+                        <a href="#"><img src="src/img/twitter_icon.png" alt="Twitter Logo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-copyright">
+                    Copyright &copy; 2019 by Arturro Torres Sukiennik | Wipro
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="src/js/main.js"></script> 
+    </body>
+
+</html>
