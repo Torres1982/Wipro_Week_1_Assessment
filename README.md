@@ -18,4 +18,5 @@ Future improvements based on the feedback:
 1. Fix the toggle menu button (revealed menu moves the content of the below parts).
 2. Optimise the code for Java Script function (tertiary operator instead of multi-lined 'if statement').
 3. Optimise the code reducing comments (too many unnecessary lines).
-4. Find the explanation for a jQuery selector. 
+4. Find the explanation for a jQuery selector.
+5. Enhance validation for an email input field (add a pattern).
