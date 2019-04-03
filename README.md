@@ -2,7 +2,7 @@
 
 #### Technologies used: HTML/HTML3, CSS/CSS3, JavaScript, jQuery. ####
 
-#### The goal of this assignment is to build a small, simple web application. The main functions of the application are as follows: ####
+#### The goal of this assignment is to build a small, simple web application. The main functions of the application are: ####
 1. Retrieve the information from the user's input fields, using a form (types of input fields: text, email, radio buttons, and date).
 2. Validate all user's inputs accordingly.
 3. After successful validation, store the user's data in the local browser storage.
