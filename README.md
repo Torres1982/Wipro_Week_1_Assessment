@@ -20,3 +20,4 @@
 3. Optimise the code reducing comments (too many unnecessary lines). FIXED.
 4. Find the explanation for a jQuery selector.
 5. Enhance validation for an email input field (add a matcher). FIXED.
+6. Update the readme.md file with descriptions. FIXED
