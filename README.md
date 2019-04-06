@@ -26,7 +26,7 @@
 1. Ternary operator broken into smaller parts in order not to repeat the parts of the code (first review part 2). UPDATED.
 2. Replace the *each* jQuery function with a Java Script expression to avoid unnecessary looping. UPDATED.
 3. Replace the *input type submit* with the *button* in HTML form (make it clear it's not an input from the user). UPDATED.
-4. Add an extra function to add user details to local database - to use more meaningful function name *(addUserDataToLocalDatabase(key, value))*.
+4. Add an extra function to add user details to local database - to use more meaningful function name *(addUserDataToLocalDatabase(key, value))*. UPDATED.
 5. Advantages of Kotlin over Java specifically in Android. PREPARED.
 6. The *use strict* in Java Script. PREPARED.
 7. What does JQuery selector do when selecting multiple elements that have the same class. PREPARED.
