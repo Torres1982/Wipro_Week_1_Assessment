@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <title> Week 1 - Assessment </title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="src/css/main.css">
-    <link rel="stylesheet" type="text/css" href="src/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="src/css/queries.css">
-  </head>
+    <head>
+      <title> Week 1 - Assessment </title>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="src/css/main.css">
+      <link rel="stylesheet" type="text/css" href="src/css/grid.css">
+      <link rel="stylesheet" type="text/css" href="src/css/queries.css">
+    </head>
 
     <body>
         <header>
@@ -28,7 +27,7 @@
         <h3> Please Register: </h3>
 
         <div class="section-form">
-            <form method="POOST" action="#" id="registration-form">
+            <form method="POST" action="#" id="registration-form">
                 <div class="row">
                     <div class="form-label col span-1-of-7">
                         <label id="testing" for="first-name"> First Name: </label>
@@ -55,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="form-label col span-1-of-7">
-                        Gender: 
+                        Gender:
                     </div>
                     <div class="col span-6-of-7">
                         <label for="female" class="form-label form-radio">
@@ -79,7 +78,7 @@
                 <div class="row">
                     <div class="form-label col span-1-of-7"></div>
                     <div class="form-label col span-6-of-7">
-                            <input type="submit" id="submit-button" value="Register" onClick="validateFields()">
+                        <button type="button" id="submit-button" onClick="validateFields()">Register</button>
                     </div>
                 </div>
             </form>
@@ -137,7 +136,6 @@
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="src/js/main.js"></script> 
+        <script src="src/js/main.js"></script>
     </body>
-
 </html>
